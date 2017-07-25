@@ -95,6 +95,15 @@
   .dos__text--boton2:hover {
     background-color: #E05848; }
 
+.dos__redes {
+  text-align: center;
+  margin-left: 500px;
+  position: absolute;
+  margin-top: 350px;
+  align-content: center; }
+  .dos__redes img {
+    width: 40px; }
+
 body {
   padding: 0;
   margin: 0; }

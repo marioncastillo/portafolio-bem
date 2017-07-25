@@ -23,8 +23,11 @@
 
 .menu__item__link {
   color: #F1FCF9;
-  text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none; }
+  .menu__item__link:hover {
+    color: #1E245D;
+    padding: 20px; }
 
 .botonuno {
   background-color: #1E245D;
@@ -34,6 +37,8 @@
   width: 100px;
   height: 40px;
   cursor: pointer; }
+  .botonuno:hover {
+    background-color: #55E38D; }
 
 .dos {
   background-color: #1E245D;
@@ -85,7 +90,10 @@
   border-radius: 40px;
   border: transparent;
   width: 200px;
-  height: 50px; }
+  height: 50px;
+  cursor: pointer; }
+  .dos__text--boton2:hover {
+    background-color: #E05848; }
 
 body {
   padding: 0;

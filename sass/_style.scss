@@ -20,12 +20,17 @@
 	margin-left:300px;
 	border-radius:50px;
 	border: 2px solid $blanco;
+
 }
 
 .menu__item__link{
 	color:$blanco;
-	text-decoration:none;
 	cursor:pointer;
+	text-decoration:none;
+	&:hover{
+		color:$azulito;
+		padding:20px;
+	}
 
 }
 
@@ -37,6 +42,9 @@
 	width:100px;
 	height:40px;
 	cursor:pointer;
+		&:hover{
+		background-color:$verde;
+	}
 }
 
 .dos{
@@ -98,4 +106,8 @@
 	border:transparent;
 	width:200px;
 	height:50px;
+	cursor:pointer;
+		&:hover{
+		background-color:$nav;
+	}
 }

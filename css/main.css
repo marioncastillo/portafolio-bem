@@ -23,7 +23,8 @@
 
 .menu__item__link {
   color: #F1FCF9;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 .botonuno {
   background-color: #1E245D;
@@ -31,12 +32,14 @@
   border-radius: 20px;
   border: transparent;
   width: 100px;
-  height: 40px; }
+  height: 40px;
+  cursor: pointer; }
 
 .dos {
   background-color: #1E245D;
   margin-top: -20px;
-  height: 300px; }
+  height: 600px;
+  width: 103%; }
 
 .dos__mini {
   border-radius: 50%;
@@ -46,15 +49,43 @@
   text-align: center;
   margin-left: 300px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 40px;
   align-content: center; }
 
 .dos__mini--hdos {
   color: #1E245D;
   position: absolute;
   margin-top: 70px;
-  margin-left: 70px;
-  font-size: 30px; }
+  margin-left: 60px;
+  font-size: 40px; }
+
+.dos__text {
+  margin-left: 550px;
+  position: absolute;
+  margin-top: 10px;
+  align-content: center; }
+
+.dos__text--huno {
+  color: #55E38D;
+  font-size: 40px; }
+
+.dos__text--htres {
+  color: #F1FCF9;
+  font-size: 25px;
+  margin-top: -20px; }
+
+.dos__text--p {
+  color: #F1FCF9;
+  font-size: 20px;
+  margin-right: 300px; }
+
+.dos__text--boton2 {
+  background-color: #55E38D;
+  color: #F1FCF9;
+  border-radius: 40px;
+  border: transparent;
+  width: 200px;
+  height: 50px; }
 
 body {
   padding: 0;

@@ -33,6 +33,29 @@
   width: 100px;
   height: 40px; }
 
+.dos {
+  background-color: #1E245D;
+  margin-top: -20px;
+  height: 300px; }
+
+.dos__mini {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #F1FCF9;
+  text-align: center;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 50px;
+  align-content: center; }
+
+.dos__mini--hdos {
+  color: #1E245D;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 70px;
+  font-size: 30px; }
+
 body {
   padding: 0;
   margin: 0; }

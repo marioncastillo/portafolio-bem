@@ -16,7 +16,7 @@
 }
 .menu__img{
 	width:60px;
-	margin-top:-10px;
+	margin-top:-13px;
 	margin-left:300px;
 	border-radius:50px;
 	border: 2px solid $blanco;
@@ -27,6 +27,7 @@
 	color:$blanco;
 	cursor:pointer;
 	text-decoration:none;
+	font-size:15px;
 	&:hover{
 		color:$azulito;
 		padding:20px;
@@ -50,7 +51,7 @@
 .dos{
 	background-color:$azulito;
 	margin-top:-20px;
-	height:600px;
+	height:550px;
 	width:103%;
 	
 }
@@ -96,7 +97,7 @@
 .dos__text--p{
 	color:$blanco;
 	font-size:20px;
-	margin-right:300px;
+	margin-right:400px;
 
 }
 .dos__text--boton2{
@@ -104,9 +105,11 @@
 	color:$blanco;
 	border-radius:40px;
 	border:transparent;
-	width:200px;
-	height:50px;
+	width:230px;
+	height:60px;
 	cursor:pointer;
+	font-size:20px;
+	margin-top:20px;
 		&:hover{
 		background-color:$nav;
 	}
@@ -116,10 +119,11 @@
 	text-align:center;
 	margin-left:500px;
 	position:absolute;
-	margin-top:350px;
+	margin-top:370px;
 	align-content:center;
 	img{
 		width:40px;
+		padding:10px;
 	}
 
 }

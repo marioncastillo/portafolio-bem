@@ -16,7 +16,7 @@
 
 .menu__img {
   width: 60px;
-  margin-top: -10px;
+  margin-top: -13px;
   margin-left: 300px;
   border-radius: 50px;
   border: 2px solid #F1FCF9; }
@@ -24,7 +24,8 @@
 .menu__item__link {
   color: #F1FCF9;
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 15px; }
   .menu__item__link:hover {
     color: #1E245D;
     padding: 20px; }
@@ -43,7 +44,7 @@
 .dos {
   background-color: #1E245D;
   margin-top: -20px;
-  height: 600px;
+  height: 550px;
   width: 103%; }
 
 .dos__mini {
@@ -82,16 +83,18 @@
 .dos__text--p {
   color: #F1FCF9;
   font-size: 20px;
-  margin-right: 300px; }
+  margin-right: 400px; }
 
 .dos__text--boton2 {
   background-color: #55E38D;
   color: #F1FCF9;
   border-radius: 40px;
   border: transparent;
-  width: 200px;
-  height: 50px;
-  cursor: pointer; }
+  width: 230px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px; }
   .dos__text--boton2:hover {
     background-color: #E05848; }
 
@@ -99,10 +102,11 @@
   text-align: center;
   margin-left: 500px;
   position: absolute;
-  margin-top: 350px;
+  margin-top: 370px;
   align-content: center; }
   .dos__redes img {
-    width: 40px; }
+    width: 40px;
+    padding: 10px; }
 
 body {
   padding: 0;

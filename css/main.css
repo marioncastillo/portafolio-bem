@@ -57,6 +57,8 @@
   position: absolute;
   margin-top: 40px;
   align-content: center; }
+  .dos__mini:hover {
+    background-color: #E05848; }
 
 .dos__mini--hdos {
   color: #1E245D;
@@ -64,6 +66,8 @@
   margin-top: 70px;
   margin-left: 60px;
   font-size: 40px; }
+  .dos__mini--hdos:hover {
+    color: #55E38D; }
 
 .dos__text {
   margin-left: 550px;
@@ -77,12 +81,12 @@
 
 .dos__text--htres {
   color: #F1FCF9;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: -20px; }
 
 .dos__text--p {
   color: #F1FCF9;
-  font-size: 20px;
+  font-size: 17px;
   margin-right: 400px; }
 
 .dos__text--boton2 {
@@ -102,14 +106,52 @@
   text-align: center;
   margin-left: 500px;
   position: absolute;
-  margin-top: 370px;
+  margin-top: 400px;
   align-content: center; }
   .dos__redes img {
     width: 40px;
     padding: 10px; }
 
+.tres {
+  background-color: #55E38D;
+  margin-top: -60px;
+  width: 103%;
+  height: 900px; }
+
+.tres__texto--huno {
+  margin-left: 600px;
+  font-size: 40px;
+  position: absolute; }
+
+.tres__trabajos {
+  margin-left: 180px;
+  position: absolute;
+  margin-top: 100px; }
+  .tres__trabajos img {
+    width: 40%;
+    height: 30%;
+    padding: 20px;
+    border-radius: 10%; }
+    .tres__trabajos img:hover {
+      background-color: #1E245D;
+      border-radius: 10px; }
+
+.pie {
+  background-color: #1E245D;
+  margin-top: -30px;
+  width: 103%;
+  height: 50px; }
+
+.pie__uno {
+  position: absolute;
+  color: #F1FCF9;
+  margin-left: 600px; }
+  .pie__uno:hover {
+    color: #E05848; }
+
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

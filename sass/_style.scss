@@ -65,6 +65,9 @@
 	position:absolute;
 	margin-top:40px;
 	align-content:center;
+		&:hover{
+		background-color:$nav;
+	}
 
 }
 .dos__mini--hdos{
@@ -73,6 +76,9 @@
 	margin-top:70px;
 	margin-left:60px;
 	font-size:40px;
+		&:hover{
+		color:$verde;
+	}
 }
 
 .dos__text{
@@ -89,14 +95,14 @@
 
 .dos__text--htres{
 	color:$blanco;
-	font-size:25px;
+	font-size:23px;
 	margin-top:-20px;
 
 
 }
 .dos__text--p{
 	color:$blanco;
-	font-size:20px;
+	font-size:17px;
 	margin-right:400px;
 
 }
@@ -119,11 +125,56 @@
 	text-align:center;
 	margin-left:500px;
 	position:absolute;
-	margin-top:370px;
+	margin-top:400px;
 	align-content:center;
 	img{
 		width:40px;
 		padding:10px;
 	}
 
+}
+
+.tres{
+	background-color:$verde;
+	margin-top:-60px;
+	width:103%;
+	height:900px;
+}
+
+.tres__texto--huno{
+	margin-left:600px;
+	font-size:40px;
+	position: absolute;
+	
+}
+
+.tres__trabajos{
+	margin-left:180px;
+	position:absolute;
+	margin-top:100px;
+	img{
+		width:40%;
+		height:30%;
+		padding:20px;
+		border-radius:10%;
+		&:hover{
+		background-color:$azulito;
+		border-radius:10px;
+	}
+	}
+}
+
+.pie{
+	background-color:$azulito;
+	margin-top:-30px;
+	width:103%;
+	height:50px;
+}
+.pie__uno{
+	position: absolute;
+	color:$blanco;
+	margin-left:600px;
+	&:hover{
+		color:$nav;
+	}	
 }
